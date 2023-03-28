@@ -1,0 +1,192 @@
+:root{
+    --dark:#000;
+    --light: #FFFCF7;
+    --orange: #FF8929;
+    --blue: #0873FF;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "freude", sans-serif;
+}
+
+.section-one{
+    background-image: url('images/hero--background.png');
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-bar-container{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.nav-bar-container img{
+    margin-left: 40px;
+}
+
+.fa-bars{
+    color:white;
+    font-size: 50px;   
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.fa-bars:hover{
+    font-size: 60px; 
+}
+
+.nav-bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark);
+    margin-top: 200px;
+    padding: 20px;;
+}
+
+#content-navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#content-navbar a:hover{
+text-decoration: underline;
+}
+
+.close{
+    position: absolute;
+    top: 5px;
+    font-size: 40px;;
+    right: 5px;
+    cursor: pointer;
+}
+
+.close:hover{
+    font-size: 50px;
+}
+
+.d-none{
+    display: none !important;
+}
+
+.hero--content {
+
+    margin-top:300px;
+    text-align: center;
+}
+
+.hero--content h1, span{
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:var(--light)
+}
+
+.hero--content span{
+    font-size: 50px;
+}
+
+.hero--content h1{
+    font-size: 100px;
+}
+
+.section-three{
+    background-color: #000;
+    height: 100vh;
+}
+
+h2{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2:hover{
+    -webkit-text-stroke: 4px var(--light);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.section-three-image-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-three-image img{
+    margin-top:50px;
+    border: 1px solid white;
+    max-width: 340px;
+    cursor: pointer;
+    transition: transform .25s ease;
+}
+
+.section-three-image img:hover{
+    transform: scale(1.1);
+}
+
+.section-three-image{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.section-three-image span{
+    text-align: center;
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+.color-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+h3{
+    color: var(--dark);
+    font-size: 40px;
+}
+
+.lampenfieber{
+    background-color: var(--orange);
+    max-width: 500px;
+    color:var(--light);
+    padding:10px;
+}
+
+.unbeeindruckt{
+    background-color: var(--blue);
+    max-width: 500px;
+    color:var(--light);
+    padding:10px;
+}
+
+.hoffnung{
+    background-color: #000055;
+    height: 120px;
+    margin: 100px;
+    color: var(--light);
+}
+
+.hoffnung span{
+    padding:20px;
+}
+
+.hoffnung h3{
+    color: var(--light);
+    padding:20px
+}
