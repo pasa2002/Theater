@@ -176,10 +176,12 @@ h3{
 }
 
 .hoffnung{
+    margin-top: 59px;
     background-color: #000055;
-    height: 120px;
-    margin: 100px;
+    height: 150px;
+    width: 90%;
     color: var(--light);
+
 }
 
 .hoffnung span{
